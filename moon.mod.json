@@ -1,6 +1,6 @@
 {
   "name": "yangqing/hello",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "deps": {},
   "readme": "README.md",
   "repository": "https://gitee.com/gogv/moonbit-hello",
@@ -9,6 +9,5 @@
     "moonbit",
     "hello"
   ],
-  "description": "MoonBit package management example file.",
-  "source": "src"
+  "description": "MoonBit package management example file."
 }
