@@ -1,3 +1,3 @@
 pub fn greeting() -> Unit {
-  println(hello())
+  println(@lib.hello())
 }
