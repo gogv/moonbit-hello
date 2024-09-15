@@ -4,40 +4,26 @@
 
 MoonBit package management example file.
 
-## 添加依赖项
-
-```sh
-moon add yangqing/hello
-```
-
-## 配置文件：`moon.pkg.json` 导入模块中的包
+## 导入模块包 ：`moon.pkg.json`
 
 ```json
 {
-  "is_main": true,
+  "is-main": true,
   "import": [
-    "yangqing/hello/lib"
-  ]
-}
-```
-
-## 也可以给导入的包取一个别名
-
-```json
-{
-  "is_main": true,
-  "import": [
+    "yangqing/hello/lib",
     {
-      "path": "username/hello/lib",
+      "path": "yangqing/hello",
       "alias": "l"
     }
   ]
 }
 ```
+
 ## 使用模块
 
 ```mbt
 fn main {
   println(@lib.hello())
+  @l.greeting()
 }
 ```
