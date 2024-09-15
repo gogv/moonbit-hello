@@ -8,5 +8,6 @@
     "moonbit",
     "hello"
   ],
-  "description": "MoonBit package management example file."
+  "description": "MoonBit package management example file.",
+  "source": "src"
 }
