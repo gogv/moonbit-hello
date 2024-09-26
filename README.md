@@ -4,16 +4,17 @@
 
 MoonBit package management example file.
 
-## 导入模块包 ：`moon.pkg.json`
+## 导入模块包
 
 ```json
+// moon.pkg.json
 {
   "is-main": true,
   "import": [
     "yangqing/hello/lib",
     {
       "path": "yangqing/hello",
-      "alias": "l"
+      "alias": "h"
     }
   ]
 }
@@ -24,6 +25,6 @@ MoonBit package management example file.
 ```mbt
 fn main {
   println(@lib.hello())
-  @l.greeting()
+  @h.greeting()
 }
 ```

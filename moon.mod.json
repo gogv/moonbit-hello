@@ -1,12 +1,13 @@
 {
   "name": "yangqing/hello",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "readme": "README.md",
   "repository": "https://gitee.com/gogv/moonbit-hello",
   "license": "MIT",
   "keywords": [
-    "moonbit",
-    "hello"
+    "hello",
+    "greeting",
+    "moonbit"
   ],
   "description": "MoonBit package management example file.",
   "source": "src"
